@@ -56,6 +56,7 @@ p.lead {
 header img {
     float: left;
 }
+
 header #contact-links {
     float: right;
 }
@@ -155,6 +156,7 @@ tbody th {
 
 .row {
     display: flex;
+    clear: both;
 }
 
 .col-50 {
@@ -169,6 +171,12 @@ tbody th {
 
 .col-50:last-child {
     margin-left: 10px;
+}
+
+img.michelle-photo {
+    max-width: 25%;
+    float: right;
+    margin: 0 0 20px 20px;
 }
 
 @media(max-width: 768px) {
